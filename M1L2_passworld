@@ -1,0 +1,11 @@
+import random
+
+
+print("Hello world")
+a = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+b = int(input("Введите длину пароля: "))
+n = ''
+for i in range(b):
+    n += random.choice(a)
+
+print(n)
